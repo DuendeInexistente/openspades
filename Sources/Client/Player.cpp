@@ -1028,7 +1028,7 @@ namespace spades {
 					z -= 0.9f;
 				if (z < -2.36f) {
 					position.x = nx;
-					climb = true;
+					climb = false;
 				} else {
 					velocity.x = 0.f;
 				}
@@ -1055,7 +1055,7 @@ namespace spades {
 					z -= 0.9f;
 				if (z < -2.36f) {
 					position.y = ny;
-					climb = true;
+					climb = false;
 				} else {
 					velocity.y = 0.f;
 				}
